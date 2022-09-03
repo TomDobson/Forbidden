@@ -3,7 +3,7 @@ let carts = document.querySelectorAll('.add-cart');
 let products = [];
 
 async function getProducts() {
-    const response = await axios.get('http://localhost:5001/products');
+    const response = await axios.get('https://forbidden-fibre-h75uj.ondigitalocean.app/products');
     products = response.data.products;
 
     populateProducts();
