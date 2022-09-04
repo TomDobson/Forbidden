@@ -62,37 +62,5 @@ exports.productList = [
         price: 15,
         inCart: 0,
         image: '/images/tshirt3.jpg'
-    },
-    {
-        name: 'Tshirt 9',
-        description: 'This is Tshirt design 9',
-        tag: 'tshirt9',
-        price: 20,
-        inCart: 0,
-        image: '/images/tshirt4.jpg'
-    },
-    {
-        name: 'Tshirt 10',
-        description: 'This is Tshirt design 10',
-        tag: 'tshirt10',
-        price: 25,
-        inCart: 0,
-        image: '/images/tshirt5.jpg'
-    },
-    {
-        name: 'Tshirt 11',   
-        description: 'This is Tshirt design 11',
-        tag: 'tshirt11',     
-        price: 5,   
-        inCart: 0,  
-        image: '/images/tshirt1.jpg'
-    },
-    {
-        name: 'Tshirt 12',
-        description: 'This is Tshirt design 12',
-        tag: 'tshirt12',
-        price: 10,
-        inCart: 0,
-        image: '/images/tshirt2.jpg'
     }
 ]

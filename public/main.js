@@ -1,9 +1,10 @@
 let carts = document.querySelectorAll('.add-cart');
-
+let stage = 'dev';
 let products = [];
 
 async function getProducts() {
-    const response = await axios.get('https://forbidden-fibre-h75uj.ondigitalocean.app/products');
+    const host = stage === 'dev' ? 'http://localhost:5001' : 'https://dobsondesigns.co.uk'
+    const response = await axios.get(`${host}/products`);
     products = response.data.products;
 
     populateProducts();
@@ -50,32 +51,6 @@ function addCartAction() {
         })
     }
 }
-// let products = [
-//      {
-//          name: 'Tshirt 1',
-//          tag: 'tshirt1',
-//          price: 5,
-//          inCart: 0
-//      },
-//      {
-//          name: 'Tshirt 2',
-//          tag: 'tshirt2',
-//          price: 10,
-//          inCart: 0
-//      },
-//      {
-//          name: 'Tshirt 3',
-//          tag: 'tshirt3',
-//          price: 15,
-//          inCart: 0
-//      },
-//     {
-//          name: 'Tshirt 4',
-//          tag: 'tshirt4',
-//          price: 20,
-//          inCart: 0
-//      }
-//  ]
 
 for (let i=0; i < carts.length; i++) {
     carts[i].addEventListener('click', () => {

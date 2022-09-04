@@ -144,11 +144,6 @@ nav li a:hover {
     text-align: center;
 }
 
-
-/* .image:hover .cart1,
-.image:hover .cart2,
-.image:hover .cart3,
-.image:hover .cart4 { */
 .showAddCart {
     bottom: 80px;
     opacity: 1;
