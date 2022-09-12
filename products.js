@@ -5,7 +5,7 @@ exports.productList = [
         tag: 'tshirt1',     //*tag must match name but without spaces and lowercase.*/
         price: 5,   //**Price of item */
         inCart: 0,  //default must always be 0, will increase when added to cart.*/
-        image: '/images/tshirt1.jpg' //*Image name must match tag*/
+        image: 'https://forbidden-fibre.fra1.digitaloceanspaces.com/tshirt1.jpg' //*Image name must match tag*/
     },
     {
         name: 'Tshirt 2',
@@ -13,7 +13,7 @@ exports.productList = [
         tag: 'tshirt2',
         price: 10,
         inCart: 0,
-        image: '/images/tshirt2.jpg'
+        image: 'https://forbidden-fibre.fra1.digitaloceanspaces.com/tshirt2.jpg'
     },
     {
         name: 'Tshirt 3',
@@ -21,7 +21,7 @@ exports.productList = [
         tag: 'tshirt3',
         price: 15,
         inCart: 0,
-        image: '/images/tshirt3.jpg'
+        image: 'https://forbidden-fibre.fra1.digitaloceanspaces.com/tshirt3.jpg'
     },
     {
         name: 'Tshirt 4',
@@ -29,7 +29,7 @@ exports.productList = [
         tag: 'tshirt4',
         price: 20,
         inCart: 0,
-        image: '/images/tshirt4.jpg'
+        image: 'https://forbidden-fibre.fra1.digitaloceanspaces.com/tshirt4.jpg'
     },
     {
         name: 'Tshirt 5',
@@ -37,7 +37,7 @@ exports.productList = [
         tag: 'tshirt5',
         price: 25,
         inCart: 0,
-        image: '/images/tshirt5.jpg'
+        image: 'https://forbidden-fibre.fra1.digitaloceanspaces.com/tshirt5.jpg'
     },
     {
         name: 'Tshirt 6',   
@@ -45,7 +45,7 @@ exports.productList = [
         tag: 'tshirt6',     
         price: 5,   
         inCart: 0,  
-        image: '/images/tshirt1.jpg'
+        image: 'https://forbidden-fibre.fra1.digitaloceanspaces.com/tshirt1.jpg'
     },
     {
         name: 'Tshirt 7',
@@ -53,7 +53,7 @@ exports.productList = [
         tag: 'tshirt7',
         price: 10,
         inCart: 0,
-        image: '/images/tshirt2.jpg'
+        image: 'https://forbidden-fibre.fra1.digitaloceanspaces.com/tshirt2.jpg'
     },
     {
         name: 'Tshirt 8',
@@ -61,6 +61,6 @@ exports.productList = [
         tag: 'tshirt8',
         price: 15,
         inCart: 0,
-        image: '/images/tshirt3.jpg'
+        image: 'https://forbidden-fibre.fra1.digitaloceanspaces.com/tshirt3.jpg'
     }
 ]
